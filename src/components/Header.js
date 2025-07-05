@@ -6,7 +6,7 @@ function Header() {
     return (
       <header className="sticky top-0 bg-dark-900/80 backdrop-blur-md shadow-2xl border-b border-dark-700/50 z-50">
         <div className="container mx-auto px-6 py-4 flex justify-between items-center">
-          <a href="#" className="text-2xl font-bold bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent hover:scale-105 transition-all duration-300 animate-glow">
+          <a href="#" className="text-2xl font-bold bg-gradient-to-r from-primary-400 to-accent-400 bg-clip-text text-transparent hover:scale-105 transition-all duration-300 ">
             Neev Ahuja
           </a>
   
