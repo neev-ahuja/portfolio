@@ -10,7 +10,6 @@ function Header() {
             Neev Ahuja
           </a>
   
-          {/* Mobile menu button */}
           <button
             className="md:hidden p-2 rounded-lg bg-dark-800/50 hover:bg-dark-700/50 transition-colors duration-300"
             onClick={() => setIsMenuOpen(!isMenuOpen)}
@@ -24,7 +23,6 @@ function Header() {
             </svg>
           </button>
   
-          {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
             <a href="#about" className="relative text-gray-300 hover:text-primary-400 transition-all duration-300 font-medium group">
               About
@@ -45,7 +43,6 @@ function Header() {
           </nav>
         </div>
   
-        {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden bg-dark-800/95 backdrop-blur-md shadow-2xl border-t border-dark-700/50">
             <nav className="flex flex-col px-6 py-4 space-y-2">

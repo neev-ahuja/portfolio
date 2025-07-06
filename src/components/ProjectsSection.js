@@ -13,7 +13,6 @@ function ProjectCard({ title, description, tech, demoLink, githubLink, image }) 
         />
         <div className="absolute inset-0 bg-gradient-to-t from-dark-900/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
         
-        {/* Floating action buttons */}
         <div className="absolute top-4 right-4 flex space-x-2 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
           {demoLink && (
             <a
@@ -121,7 +120,6 @@ function ProjectsSection() {
 
   return (
     <section id="projects" className="py-24 bg-gradient-to-br from-dark-900 via-dark-800 to-dark-950 relative overflow-hidden">
-      {/* Background decorative elements */}
       <div className="absolute top-0 left-0 w-72 h-72 bg-gradient-to-br from-primary-500/10 to-accent-500/10 rounded-full blur-3xl opacity-20 -translate-x-1/2 -translate-y-1/2 animate-float"></div>
       <div className="absolute bottom-0 right-0 w-96 h-96 bg-gradient-to-tl from-accent-500/10 to-primary-500/10 rounded-full blur-3xl opacity-20 translate-x-1/2 translate-y-1/2 animate-float" style={{animationDelay: '2s'}}></div>
       
@@ -144,7 +142,6 @@ function ProjectsSection() {
           ))}
         </div>
         
-        {/* Call to action */}
         <div className="text-center mt-16" data-aos='fade-up'>
           <p className="text-gray-300 mb-6">Want to see more of my work?</p>
           <a 

@@ -3,7 +3,6 @@ import image from '../images/profile.jpeg';
 function HeroSection() {
     return (
       <section className="relative bg-gradient-to-br from-dark-900 via-dark-800 to-dark-700 text-white overflow-hidden">
-        {/* Background decorative elements */}
         <div className="absolute inset-0 bg-gradient-to-br from-primary-500/5 via-accent-500/5 to-primary-400/5"></div>
         <div className="absolute top-0 left-0 w-96 h-96 bg-primary-500/10 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2 animate-float"></div>
         <div className="absolute bottom-0 right-0 w-96 h-96 bg-accent-500/10 rounded-full blur-3xl translate-x-1/2 translate-y-1/2 animate-float" style={{animationDelay: '2s'}}></div>
@@ -46,7 +45,6 @@ function HeroSection() {
                   className="w-full h-full object-cover hover:scale-110 transition-transform duration-700"
                 />
               </div>
-              {/* Floating elements */}
               <div className="absolute -top-4 -right-4 w-8 h-8 bg-yellow-400 rounded-full animate-bounce shadow-lg"></div>
               <div className="absolute -bottom-4 -left-4 w-6 h-6 bg-accent-400 rounded-full animate-pulse shadow-lg"></div>
               <div className="absolute top-1/2 -left-8 w-4 h-4 bg-primary-400 rounded-full animate-ping shadow-lg"></div>

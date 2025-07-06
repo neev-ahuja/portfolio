@@ -24,7 +24,6 @@ function App() {
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-dark-950 via-dark-900 to-dark-800 text-gray-100 relative overflow-hidden">
-      {/* Animated background elements */}
       <div className="fixed inset-0 overflow-hidden pointer-events-none">
         <div className="absolute -top-40 -right-40 w-80 h-80 bg-primary-500/10 rounded-full blur-3xl animate-float"></div>
         <div className="absolute -bottom-40 -left-40 w-80 h-80 bg-accent-500/10 rounded-full blur-3xl animate-float" style={{animationDelay: '2s'}}></div>

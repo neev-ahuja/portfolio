@@ -2,7 +2,6 @@ function AboutSection() {
   
     return (
       <section id="about" className="py-24 bg-gradient-to-br from-dark-800 via-dark-900 to-dark-950 relative overflow-hidden">
-        {/* Background decorative elements */}
         <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-primary-500/10 to-accent-500/10 rounded-full blur-3xl opacity-30 translate-x-1/2 -translate-y-1/2 animate-float"></div>
         <div className="absolute bottom-0 left-0 w-48 h-48 bg-gradient-to-tr from-accent-500/10 to-primary-500/10 rounded-full blur-3xl opacity-30 -translate-x-1/2 translate-y-1/2 animate-float" style={{animationDelay: '2s'}}></div>
         
@@ -18,7 +17,6 @@ function AboutSection() {
 
           <div className="max-w-4xl mx-auto">
             <div className="grid md:grid-cols-2 gap-12 items-center">
-              {/* Text Content */}
               <div className="space-y-6">
                 <div className="bg-gradient-to-br from-dark-800/50 to-dark-700/50 p-8 rounded-2xl shadow-2xl border border-dark-600/50 backdrop-blur-sm hover:border-primary-500/30 transition-all duration-300" data-aos='fade-up' data-aos-delay='200'>
                   <div className="flex items-start space-x-4">
@@ -63,7 +61,6 @@ function AboutSection() {
                 </div>
               </div>
 
-              {/* Stats/Highlights */}
               <div className="space-y-6" data-aos='fade-left' data-aos-delay='500'>
                 <div className="bg-gradient-to-br from-emerald-600 to-teal-600 p-8 rounded-2xl text-white shadow-2xl border border-emerald-400/30">
                   <h3 className="text-2xl font-bold mb-6">Quick Facts</h3>

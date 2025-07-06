@@ -32,7 +32,6 @@ function SkillsSection() {
   
     return (
       <section id="skills" className="py-24 bg-gradient-to-br from-dark-950 via-dark-900 to-dark-800 relative overflow-hidden">
-        {/* Background decorative elements */}
         <div className="absolute top-0 left-0 w-64 h-64 bg-gradient-to-br from-accent-500/10 to-primary-500/10 rounded-full blur-3xl opacity-30 -translate-x-1/2 -translate-y-1/2 animate-float"></div>
         <div className="absolute bottom-0 right-0 w-80 h-80 bg-gradient-to-tl from-primary-500/10 to-accent-500/10 rounded-full blur-3xl opacity-30 translate-x-1/2 translate-y-1/2 animate-float" style={{animationDelay: '2s'}}></div>
         
@@ -78,7 +77,6 @@ function SkillsSection() {
             ))}
           </div>
           
-          {/* Additional skills section */}
           <div className="mt-20" data-aos='fade-up'>
             <div className="bg-gradient-to-r from-teal-600 to-cyan-600 rounded-3xl p-8 md:p-12 text-white text-center shadow-2xl border border-teal-400/30">
               <h3 className="text-2xl md:text-3xl font-bold mb-6">Always Learning</h3>

@@ -3,7 +3,6 @@ import { Github as GitHub, Linkedin, Twitter, Mail } from 'lucide-react';
 function Footer() {
     return (
       <footer className="bg-gradient-to-r from-dark-950 to-dark-900 text-white py-16 relative overflow-hidden">
-        {/* Background decorative elements */}
         <div className="absolute top-0 left-0 w-64 h-64 bg-gradient-to-br from-primary-500/5 to-accent-500/5 rounded-full blur-3xl opacity-30 -translate-x-1/2 -translate-y-1/2"></div>
         <div className="absolute bottom-0 right-0 w-64 h-64 bg-gradient-to-tl from-accent-500/5 to-primary-500/5 rounded-full blur-3xl opacity-30 translate-x-1/2 translate-y-1/2"></div>
         
@@ -53,7 +52,7 @@ function Footer() {
           <div className="border-t border-dark-600/50 mt-12 pt-8 text-center">
             <p className="text-gray-400">
               &copy; {new Date().getFullYear()} Neev Ahuja. All rights reserved.
-            </p>
+            </p>  
           </div>
         </div>
       </footer>

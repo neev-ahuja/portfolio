@@ -54,7 +54,6 @@ function BlogCard({ title, date, excerpt, link, image }) {
   
     return (
       <section id="blog" className="py-24 bg-gradient-to-br from-dark-900 via-dark-800 to-dark-950 relative overflow-hidden">
-        {/* Background decorative elements */}
         <div className="absolute top-0 right-0 w-64 h-64 bg-gradient-to-br from-primary-500/10 to-accent-500/10 rounded-full blur-3xl opacity-30 translate-x-1/2 -translate-y-1/2 animate-float"></div>
         <div className="absolute bottom-0 left-0 w-48 h-48 bg-gradient-to-tr from-accent-500/10 to-primary-500/10 rounded-full blur-3xl opacity-30 -translate-x-1/2 translate-y-1/2 animate-float" style={{animationDelay: '2s'}}></div>
         
